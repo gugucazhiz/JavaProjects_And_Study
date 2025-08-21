@@ -1,0 +1,72 @@
+package mad_lib;
+import java.util.Scanner;
+
+
+public class App {
+		private String adjetivu1;
+		private String adjetivu2;
+		private String adjetivu3;
+		private String name;
+		private String verb;
+		
+	protected static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		App jogo = new App();
+		int i =3;
+		
+		
+		while(i !=3) {
+			System.out.println("1)Novo Jogo");
+			System.out.println("2)Score");
+			System.out.println("3)Sair");
+			i = scan.nextInt();
+			if(i == 1) {
+				jogo.novoJogo();
+			}
+			else if(i == 2) {
+			}		
+		}
+		
+	}
+	public void novoJogo() {
+		System.out.println("Today i went to a " + adjetivu1 + " Zoo.");
+		System.out.println("in a exhibit I saw a" + name + ".");
+		System.out.println("Was " + adjetivu2 +" and " + );
+	}
+	
+	
+	
+	
+	public String getAdjetivu1() {
+		return adjetivu1;
+	}
+	public void setAdjetivu1(String adjetivu1) {
+		this.adjetivu1 = adjetivu1;
+	}
+	public String getAdjetivu2() {
+		return adjetivu2;
+	}
+	public void setAdjetivu2(String adjetivu2) {
+		this.adjetivu2 = adjetivu2;
+	}
+	public String getAdjetivu3() {
+		return adjetivu3;
+	}
+	public void setAdjetivu3(String adjetivu3) {
+		this.adjetivu3 = adjetivu3;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getVerb() {
+		return verb;
+	}
+	public void setVerb(String verb) {
+		this.verb = verb;
+	}
+	
+	
+}

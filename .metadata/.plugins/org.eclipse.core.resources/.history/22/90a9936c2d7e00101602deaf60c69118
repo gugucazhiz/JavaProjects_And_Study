@@ -1,0 +1,30 @@
+package mad_lib;
+import java.util.Scanner;
+
+public class App {
+	protected static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String adjetivu1;
+		String adjetivu2;
+		String adjetivu3;
+		String name;
+		int i =3;
+		
+		
+		while(i !=3) {
+			System.out.println("1)Novo Jogo");
+			System.out.println("2)Score");
+			System.out.println("3)Sair");
+			i = scan.nextInt();
+			if(i == 1) {
+				novoJogo();
+			}
+			else if(i == 2) {
+			}
+		}
+	}
+	public static void novoJogo() {
+		System.out.println("Today i went to a " + adjectivu);
+	}
+}
